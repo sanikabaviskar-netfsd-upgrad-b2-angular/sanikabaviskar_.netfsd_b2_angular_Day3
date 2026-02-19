@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Product Features</title>
+
+    <style>
+        body {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            background-color: #f4f6f9;
+            margin: 0;
+            padding: 0;
+        }
+
+        section {
+            width: 500px;
+            margin: 80px auto;
+            text-align: center;
+        }
+
+        section h2 {
+            font-size: 28px;
+            color: #222;
+            margin-bottom: 25px;
+            letter-spacing: 1px;
+        }
+
+        .features {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .features li {
+            background-color: #ffffff;
+            color: #333;
+            border: 1px solid #ccc;
+            padding: 15px;
+            margin-bottom: 15px;
+            border-radius: 8px;
+            font-size: 16px;
+            transition: 0.3s ease;
+        }
+
+        .features li:hover {
+            background-color: #0077cc;
+            color: #ffffff;
+            cursor: pointer;
+            transform: scale(1.03);
+        }
+    </style>
+</head>
+
+<body>
+
+    <section>
+        <h2>Our Product Features</h2>
+        <ul class="features">
+            <li>Fast and Secure Performance</li>
+            <li>User-Friendly Interface</li>
+            <li>24/7 Customer Support</li>
+            <li>Cloud-Based Storage</li>
+            <li>Regular Updates and Improvements</li>
+        </ul>
+    </section>
+
+</body>
+</html>
